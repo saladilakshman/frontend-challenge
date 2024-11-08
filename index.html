@@ -1,0 +1,168 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BOGO Offer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="header-container">
+        <h2 class="header">YAY! It's BOGO</h2>
+      </div>
+
+      <!-- 1 Unit Option -->
+      <div class="offer-option selected" data-units="1">
+        <div class="radio-btn">
+          <input type="radio" name="units" checked />
+        </div>
+        <div class="option-content">
+          <div class="unit-info">
+            <span>1 Unit</span>
+            <span class="discount">10% Off</span>
+            <div class="price">
+              <span>$10.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+            </div>
+          </div>
+
+          <p class="subtext">Standard Price</p>
+
+          <!-- Dropdowns for 1 Unit -->
+          <div class="dropdowns">
+            <div class="dropdown">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 2 Unit Option -->
+      <div class="offer-option popular" data-units="2">
+        <div class="ribbon">MOST POPULAR</div>
+        <div class="radio-btn">
+          <input type="radio" name="units" />
+        </div>
+        <div class="option-content">
+          <div class="unit-info">
+            <span>2 Unit</span>
+            <span class="discount">20% Off</span>
+            <div class="price">
+              <span>$18.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+            </div>
+          </div>
+
+          <!-- Dropdowns for 2 Unit -->
+          <div class="dropdowns">
+            <div class="dropdown">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Red</option>
+                <option>Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Unit Option -->
+      <div class="offer-option" data-units="3">
+        <div class="radio-btn">
+          <input type="radio" name="units" />
+        </div>
+        <div class="option-content">
+          <div class="unit-info">
+            <span>3 Unit</span>
+            <span class="discount">30% Off</span>
+            <div class="price">
+              <span>$24.00 USD</span>
+              <span class="old-price">$24.00 USD</span>
+            </div>
+          </div>
+
+          <!-- Dropdowns for 3 Unit -->
+          <div class="dropdowns">
+            <div class="dropdown">
+              <label>#1</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Black</option>
+                <option>White</option>
+                <option>Blue</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <label>#2</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Red</option>
+                <option>Green</option>
+              </select>
+            </div>
+            <div class="dropdown">
+              <label>#3</label>
+              <select>
+                <option>S</option>
+                <option>M</option>
+                <option>L</option>
+              </select>
+              <select>
+                <option>Colour</option>
+                <option>Red</option>
+                <option>Green</option>
+              </select>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="delivery">
+        <span>Free Delivery</span>
+        <span id="total-price">Total : $ 10 USD</span>
+      </div>
+
+      <button class="add-to-cart">+ Add to Cart</button>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
